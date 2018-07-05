@@ -35,6 +35,10 @@ h2 {
     text-align: center;
 }
 
+#Cata {
+    text-align: left;
+    font-size: 3rem;
+}
 p {
     text-align: center;
     padding: 0 2rem;
@@ -48,6 +52,7 @@ h3 {
     color: #808000;
 
 }
+
 
 .article  {
 
@@ -76,4 +81,16 @@ span {
 .article button {
     margin: 0 0 1rem 1rem;
     color: #808000;
+}
+
+.form-check {
+    width: 100%;
+    /* padding-left: 2rem; */
+    padding: 2rem 0 0 2rem;
+
+}
+
+#filtre {
+    padding-left: 1rem;
+    text-align: left;
 }
