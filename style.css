@@ -94,3 +94,15 @@ span {
     padding-left: 1rem;
     text-align: left;
 }
+form{
+    width: 80%;
+    margin: 10%;
+    background-color: #f5f5dc;
+    padding: 3rem;
+}
+form div{
+    margin: 1rem 0;
+}
+thead{
+    background-color: #808000;
+}

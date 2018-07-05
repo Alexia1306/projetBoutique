@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
+
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -8,48 +9,76 @@
     <link rel="stylesheet" href="style.css">
     <title></title>
 </head>
-    <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-2">
-                    <div class="row no-gutters">
-                        <div class="col-4 col-md-12 order-md-last">
-                            <nav class="navbar navbar-expand-md navbar-light bg-light">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                    <div class="navbar-nav flex-lg-column">
-                                        <a class="nav-item nav-link active" href="#">Home Page <span class="sr-only">(current)</span></a>
-                                        <a class="nav-item nav-link" href="#">Cataloge</a>
-                                        <a class="nav-item nav-link" href="#">Panier</a>
-                                        <a class="nav-item nav-link" href="#">Contact</a>
-                                    </div>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-2">
+                <div class="row no-gutters">
+                    <div class="col-4 col-md-12 order-md-last">
+                        <nav class="navbar navbar-expand-md navbar-light bg-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav flex-lg-column">
+                                    <a class="nav-item nav-link active" href="#">Home Page <span class="sr-only">(current)</span></a>
+                                    <a class="nav-item nav-link" href="#">Cataloge</a>
+                                    <a class="nav-item nav-link" href="#">Panier</a>
+                                    <a class="nav-item nav-link" href="#">Contact</a>
                                 </div>
-                            </nav>
-                        </div>
-                        <div class="col-8 col-md-12">
-                            <h1>MIAOUF</h1>
-                        </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-8 col-md-12">
+                        <h1>MIAOUF</h1>
                     </div>
                 </div>
-                <div class="col">
-                <h2>Votre Panier</h2>
-
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                </div>
             </div>
-
+            <div class="col-12 col-lg-10">
+                <h2 id="Cata">Votre Panier</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nom</th>
+                            <th scope="col">Quantité</th>
+                            <th scope="col">Prix</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
+    </div>
 
 
 
 
-        <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="script.js" charset="utf-8"></script>
-    </body>
+    <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
 </html>
