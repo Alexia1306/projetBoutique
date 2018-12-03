@@ -22,14 +22,18 @@ text-align: center;
     width: 100%;
     float: right;
 }
-h1{
+h1, .logo{
     width: 100%;
     text-align: center;
     margin: 2rem 0;
     font-family: 'Gaegu', cursive;
     font-size: 3rem;
-
 }
+.logo {
+    background-color: orange;
+    color: white;
+}
+
 
 h2 {
     font-size: 3.4rem;
@@ -37,6 +41,7 @@ h2 {
     padding: 2rem;
     text-align: center;
     font-family: 'Tangerine', cursive;
+
 
 
 }
